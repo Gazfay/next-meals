@@ -6,5 +6,6 @@ export const metadata = {
 };
 
 export default function MealsPage() {
-  return <Meals />;
+  //return <Meals />;
+  return <div>Meals</div>;
 }

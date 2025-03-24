@@ -17,5 +17,6 @@ export function generateMetadata({ params }: { params: { mealId: string } }) {
 }
 
 export default function MealPage({ params }: PageProps<{ mealId: string }>) {
-  return <MealDetails mealId={params.mealId} />;
+  //return <MealDetails mealId={params.mealId} />;
+  return <div>MealDetails {params.mealId}</div>;
 }
