@@ -1,4 +1,4 @@
-import { Meals } from '@/screens/Meals';
+// import { Meals } from '@/screens/Meals';
 
 export const metadata = {
   title: 'All Meals',
